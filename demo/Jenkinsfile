@@ -1,7 +1,7 @@
 pipeline {
     agent any // 모든 서버에서 실행 가능
 
-    tool {
+    tools {
         maven 'maven 3.9.12'
         // Jenkins에 등록된 Maven 사용
     }
